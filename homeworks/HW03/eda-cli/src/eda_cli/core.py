@@ -175,9 +175,12 @@ def compute_quality_flags(summary: DatasetSummary, missing_df: pd.DataFrame) -> 
     Простейшие эвристики «качества» данных:
     - слишком много пропусков;
     - подозрительно мало строк;
-    и т.п.
+    - константные колонки;
+    - категориальные признаки с высокой кардинальностью.
     """
     flags: Dict[str, Any] = {}
+
+    # базовые эвристики
     flags["too_few_rows"] = summary.n_rows < 100
     flags["too_many_columns"] = summary.n_cols > 100
 
@@ -185,12 +188,37 @@ def compute_quality_flags(summary: DatasetSummary, missing_df: pd.DataFrame) -> 
     flags["max_missing_share"] = max_missing_share
     flags["too_many_missing"] = max_missing_share > 0.5
 
-    # Простейший «скор» качества
+    # константные колонки
+    constant_columns = [
+        col.name
+        for col in summary.columns
+        if getattr(col, "unique", None) == 1
+    ]
+    flags["has_constant_columns"] = len(constant_columns) > 0
+    flags["constant_columns"] = constant_columns
+
+    # высокая кардинальность категориальных 
+    HIGH_CARDINALITY_THRESHOLD = 50
+
+    high_cardinality_columns = [
+        col.name
+        for col in summary.columns
+        if col.dtype == "object"
+        and getattr(col, "unique", 0) > HIGH_CARDINALITY_THRESHOLD
+    ]
+    flags["has_high_cardinality_categoricals"] = len(high_cardinality_columns) > 0
+    flags["high_cardinality_columns"] = high_cardinality_columns
+
+    # интегральный скор качества
     score = 1.0
-    score -= max_missing_share  # чем больше пропусков, тем хуже
+    score -= max_missing_share
     if summary.n_rows < 100:
         score -= 0.2
     if summary.n_cols > 100:
+        score -= 0.1
+    if flags["has_constant_columns"]:
+        score -= 0.1
+    if flags["has_high_cardinality_categoricals"]:
         score -= 0.1
 
     score = max(0.0, min(1.0, score))

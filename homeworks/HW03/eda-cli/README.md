@@ -57,3 +57,31 @@ uv run eda-cli report data/example.csv --out-dir reports
 ```bash
 uv run pytest -q
 ```
+
+## HW03: расширение команды `report`
+
+В рамках домашнего задания HW03 команда `report` была расширена дополнительными параметрами.
+
+### Новые параметры
+
+- `--max-hist-columns`  
+  Максимальное количество числовых колонок, для которых строятся гистограммы.  
+  Влияет на число файлов `hist_*.png`.
+
+- `--top-k-categories`  
+  Количество top-значений, сохраняемых для каждого категориального признака.  
+  Влияет на содержимое файлов в каталоге `top_categories/`.
+
+- `--title`  
+  Заголовок отчёта, используемый в первой строке файла `report.md`.
+
+Значения параметров отражаются в разделе **«Параметры отчёта»** внутри `report.md`.
+
+### Пример запуска с новыми опциями
+
+```bash
+uv run eda-cli report data/example.csv \
+  --out-dir reports_example \
+  --title "HW03 report" \
+  --top-k-categories 3 \
+  --max-hist-columns 2
