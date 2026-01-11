@@ -1,0 +1,15 @@
+{
+  "S07-hw-dataset-02.csv": {
+    "algo": "kmeans",
+    "params": {
+      "k": 2
+    },
+    "metrics": {
+      "silhouette": 0.06739651011368043,
+      "davies_bouldin": 3.491415540938381,
+      "calinski_harabasz": 1415.9653261784579,
+      "noise_frac": 0.0
+    },
+    "selection_criterion": "max_silhouette (DBSCAN metrics computed on non-noise points)"
+  }
+}

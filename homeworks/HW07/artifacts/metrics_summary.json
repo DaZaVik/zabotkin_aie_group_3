@@ -1,0 +1,552 @@
+{
+  "S07-hw-dataset-02.csv": {
+    "kmeans": [
+      {
+        "algo": "kmeans",
+        "k": 2,
+        "silhouette": 0.06739651011368043,
+        "davies_bouldin": 3.491415540938381,
+        "calinski_harabasz": 1415.9653261784579,
+        "noise_frac": 0.0,
+        "inertia": 634112.3039538123
+      },
+      {
+        "algo": "kmeans",
+        "k": 3,
+        "silhouette": 0.05481326698861643,
+        "davies_bouldin": 3.3805227241578333,
+        "calinski_harabasz": 1100.8706927395542,
+        "noise_frac": 0.0,
+        "inertia": 609441.6174653217
+      },
+      {
+        "algo": "kmeans",
+        "k": 4,
+        "silhouette": 0.05148355060834013,
+        "davies_bouldin": 3.336089593643015,
+        "calinski_harabasz": 963.1651647707422,
+        "noise_frac": 0.0,
+        "inertia": 589369.1939282115
+      },
+      {
+        "algo": "kmeans",
+        "k": 5,
+        "silhouette": 0.04986234221768333,
+        "davies_bouldin": 3.170236255543152,
+        "calinski_harabasz": 868.6948234659119,
+        "noise_frac": 0.0,
+        "inertia": 573297.9495081628
+      },
+      {
+        "algo": "kmeans",
+        "k": 6,
+        "silhouette": 0.05250233339545285,
+        "davies_bouldin": 3.010883176522585,
+        "calinski_harabasz": 806.1182380762576,
+        "noise_frac": 0.0,
+        "inertia": 558825.2476136525
+      },
+      {
+        "algo": "kmeans",
+        "k": 7,
+        "silhouette": 0.05228009831513685,
+        "davies_bouldin": 2.9665715433368556,
+        "calinski_harabasz": 744.187799419191,
+        "noise_frac": 0.0,
+        "inertia": 548007.1893436243
+      },
+      {
+        "algo": "kmeans",
+        "k": 8,
+        "silhouette": 0.053492427866415025,
+        "davies_bouldin": 2.8693525662562536,
+        "calinski_harabasz": 697.6958451077047,
+        "noise_frac": 0.0,
+        "inertia": 537969.9092647415
+      },
+      {
+        "algo": "kmeans",
+        "k": 9,
+        "silhouette": 0.05457864014623082,
+        "davies_bouldin": 2.7735268607840693,
+        "calinski_harabasz": 658.7145905092008,
+        "noise_frac": 0.0,
+        "inertia": 529039.9380901104
+      },
+      {
+        "algo": "kmeans",
+        "k": 10,
+        "silhouette": 0.053217891064949056,
+        "davies_bouldin": 2.8387873279616693,
+        "calinski_harabasz": 621.56811764716,
+        "noise_frac": 0.0,
+        "inertia": 521756.75301226886
+      },
+      {
+        "algo": "kmeans",
+        "k": 11,
+        "silhouette": 0.051451693176159725,
+        "davies_bouldin": 2.8517613363541416,
+        "calinski_harabasz": 586.4560481236279,
+        "noise_frac": 0.0,
+        "inertia": 515834.05702516437
+      },
+      {
+        "algo": "kmeans",
+        "k": 12,
+        "silhouette": 0.0508800712033319,
+        "davies_bouldin": 2.8878637739339297,
+        "calinski_harabasz": 556.1533318599398,
+        "noise_frac": 0.0,
+        "inertia": 510410.3516489349
+      },
+      {
+        "algo": "kmeans",
+        "k": 13,
+        "silhouette": 0.0486597465614882,
+        "davies_bouldin": 2.834989296163253,
+        "calinski_harabasz": 530.2845402011845,
+        "noise_frac": 0.0,
+        "inertia": 505252.5084895481
+      },
+      {
+        "algo": "kmeans",
+        "k": 14,
+        "silhouette": 0.047573726944475384,
+        "davies_bouldin": 2.8545127643176316,
+        "calinski_harabasz": 506.476990376765,
+        "noise_frac": 0.0,
+        "inertia": 500705.0639365635
+      },
+      {
+        "algo": "kmeans",
+        "k": 15,
+        "silhouette": 0.04702204459480909,
+        "davies_bouldin": 2.8607418699219433,
+        "calinski_harabasz": 485.5968283364213,
+        "noise_frac": 0.0,
+        "inertia": 496371.0580774371
+      },
+      {
+        "algo": "kmeans",
+        "k": 16,
+        "silhouette": 0.0480667343081065,
+        "davies_bouldin": 2.7994108962446678,
+        "calinski_harabasz": 467.4900362018677,
+        "noise_frac": 0.0,
+        "inertia": 492114.07796611276
+      },
+      {
+        "algo": "kmeans",
+        "k": 17,
+        "silhouette": 0.048119611026997515,
+        "davies_bouldin": 2.806740730792446,
+        "calinski_harabasz": 450.52566033414405,
+        "noise_frac": 0.0,
+        "inertia": 488276.5679477348
+      },
+      {
+        "algo": "kmeans",
+        "k": 18,
+        "silhouette": 0.04904087622266749,
+        "davies_bouldin": 2.79738201132493,
+        "calinski_harabasz": 434.48337083420216,
+        "noise_frac": 0.0,
+        "inertia": 484846.4168275106
+      },
+      {
+        "algo": "kmeans",
+        "k": 19,
+        "silhouette": 0.04817273167027973,
+        "davies_bouldin": 2.8027374785861845,
+        "calinski_harabasz": 419.48046134755305,
+        "noise_frac": 0.0,
+        "inertia": 481716.2813419062
+      },
+      {
+        "algo": "kmeans",
+        "k": 20,
+        "silhouette": 0.04739607552640127,
+        "davies_bouldin": 2.815053958300811,
+        "calinski_harabasz": 406.21114521330816,
+        "noise_frac": 0.0,
+        "inertia": 478570.87603937124
+      }
+    ],
+    "dbscan": [
+      {
+        "algo": "dbscan",
+        "eps": 0.1,
+        "min_samples": 5,
+        "silhouette": null,
+        "davies_bouldin": null,
+        "calinski_harabasz": null,
+        "noise_frac": 1.0
+      },
+      {
+        "algo": "dbscan",
+        "eps": 0.2,
+        "min_samples": 5,
+        "silhouette": null,
+        "davies_bouldin": null,
+        "calinski_harabasz": null,
+        "noise_frac": 1.0
+      },
+      {
+        "algo": "dbscan",
+        "eps": 0.3,
+        "min_samples": 5,
+        "silhouette": null,
+        "davies_bouldin": null,
+        "calinski_harabasz": null,
+        "noise_frac": 1.0
+      },
+      {
+        "algo": "dbscan",
+        "eps": 0.4,
+        "min_samples": 5,
+        "silhouette": null,
+        "davies_bouldin": null,
+        "calinski_harabasz": null,
+        "noise_frac": 1.0
+      },
+      {
+        "algo": "dbscan",
+        "eps": 0.5,
+        "min_samples": 5,
+        "silhouette": null,
+        "davies_bouldin": null,
+        "calinski_harabasz": null,
+        "noise_frac": 1.0
+      },
+      {
+        "algo": "dbscan",
+        "eps": 0.6,
+        "min_samples": 5,
+        "silhouette": null,
+        "davies_bouldin": null,
+        "calinski_harabasz": null,
+        "noise_frac": 1.0
+      },
+      {
+        "algo": "dbscan",
+        "eps": 0.7,
+        "min_samples": 5,
+        "silhouette": null,
+        "davies_bouldin": null,
+        "calinski_harabasz": null,
+        "noise_frac": 1.0
+      },
+      {
+        "algo": "dbscan",
+        "eps": 0.7999999999999999,
+        "min_samples": 5,
+        "silhouette": null,
+        "davies_bouldin": null,
+        "calinski_harabasz": null,
+        "noise_frac": 1.0
+      },
+      {
+        "algo": "dbscan",
+        "eps": 0.8999999999999999,
+        "min_samples": 5,
+        "silhouette": null,
+        "davies_bouldin": null,
+        "calinski_harabasz": null,
+        "noise_frac": 1.0
+      },
+      {
+        "algo": "dbscan",
+        "eps": 0.9999999999999999,
+        "min_samples": 5,
+        "silhouette": null,
+        "davies_bouldin": null,
+        "calinski_harabasz": null,
+        "noise_frac": 1.0
+      },
+      {
+        "algo": "dbscan",
+        "eps": 1.0999999999999999,
+        "min_samples": 5,
+        "silhouette": null,
+        "davies_bouldin": null,
+        "calinski_harabasz": null,
+        "noise_frac": 1.0
+      },
+      {
+        "algo": "dbscan",
+        "eps": 1.2,
+        "min_samples": 5,
+        "silhouette": null,
+        "davies_bouldin": null,
+        "calinski_harabasz": null,
+        "noise_frac": 1.0
+      },
+      {
+        "algo": "dbscan",
+        "eps": 1.3,
+        "min_samples": 5,
+        "silhouette": null,
+        "davies_bouldin": null,
+        "calinski_harabasz": null,
+        "noise_frac": 1.0
+      },
+      {
+        "algo": "dbscan",
+        "eps": 1.4,
+        "min_samples": 5,
+        "silhouette": null,
+        "davies_bouldin": null,
+        "calinski_harabasz": null,
+        "noise_frac": 1.0
+      },
+      {
+        "algo": "dbscan",
+        "eps": 1.5,
+        "min_samples": 5,
+        "silhouette": null,
+        "davies_bouldin": null,
+        "calinski_harabasz": null,
+        "noise_frac": 1.0
+      },
+      {
+        "algo": "dbscan",
+        "eps": 1.5999999999999999,
+        "min_samples": 5,
+        "silhouette": null,
+        "davies_bouldin": null,
+        "calinski_harabasz": null,
+        "noise_frac": 1.0
+      },
+      {
+        "algo": "dbscan",
+        "eps": 1.7,
+        "min_samples": 5,
+        "silhouette": null,
+        "davies_bouldin": null,
+        "calinski_harabasz": null,
+        "noise_frac": 1.0
+      },
+      {
+        "algo": "dbscan",
+        "eps": 1.8,
+        "min_samples": 5,
+        "silhouette": null,
+        "davies_bouldin": null,
+        "calinski_harabasz": null,
+        "noise_frac": 1.0
+      },
+      {
+        "algo": "dbscan",
+        "eps": 1.9,
+        "min_samples": 5,
+        "silhouette": null,
+        "davies_bouldin": null,
+        "calinski_harabasz": null,
+        "noise_frac": 1.0
+      },
+      {
+        "algo": "dbscan",
+        "eps": 2.0,
+        "min_samples": 5,
+        "silhouette": null,
+        "davies_bouldin": null,
+        "calinski_harabasz": null,
+        "noise_frac": 1.0
+      },
+      {
+        "algo": "dbscan",
+        "eps": 0.1,
+        "min_samples": 10,
+        "silhouette": null,
+        "davies_bouldin": null,
+        "calinski_harabasz": null,
+        "noise_frac": 1.0
+      },
+      {
+        "algo": "dbscan",
+        "eps": 0.2,
+        "min_samples": 10,
+        "silhouette": null,
+        "davies_bouldin": null,
+        "calinski_harabasz": null,
+        "noise_frac": 1.0
+      },
+      {
+        "algo": "dbscan",
+        "eps": 0.3,
+        "min_samples": 10,
+        "silhouette": null,
+        "davies_bouldin": null,
+        "calinski_harabasz": null,
+        "noise_frac": 1.0
+      },
+      {
+        "algo": "dbscan",
+        "eps": 0.4,
+        "min_samples": 10,
+        "silhouette": null,
+        "davies_bouldin": null,
+        "calinski_harabasz": null,
+        "noise_frac": 1.0
+      },
+      {
+        "algo": "dbscan",
+        "eps": 0.5,
+        "min_samples": 10,
+        "silhouette": null,
+        "davies_bouldin": null,
+        "calinski_harabasz": null,
+        "noise_frac": 1.0
+      },
+      {
+        "algo": "dbscan",
+        "eps": 0.6,
+        "min_samples": 10,
+        "silhouette": null,
+        "davies_bouldin": null,
+        "calinski_harabasz": null,
+        "noise_frac": 1.0
+      },
+      {
+        "algo": "dbscan",
+        "eps": 0.7,
+        "min_samples": 10,
+        "silhouette": null,
+        "davies_bouldin": null,
+        "calinski_harabasz": null,
+        "noise_frac": 1.0
+      },
+      {
+        "algo": "dbscan",
+        "eps": 0.7999999999999999,
+        "min_samples": 10,
+        "silhouette": null,
+        "davies_bouldin": null,
+        "calinski_harabasz": null,
+        "noise_frac": 1.0
+      },
+      {
+        "algo": "dbscan",
+        "eps": 0.8999999999999999,
+        "min_samples": 10,
+        "silhouette": null,
+        "davies_bouldin": null,
+        "calinski_harabasz": null,
+        "noise_frac": 1.0
+      },
+      {
+        "algo": "dbscan",
+        "eps": 0.9999999999999999,
+        "min_samples": 10,
+        "silhouette": null,
+        "davies_bouldin": null,
+        "calinski_harabasz": null,
+        "noise_frac": 1.0
+      },
+      {
+        "algo": "dbscan",
+        "eps": 1.0999999999999999,
+        "min_samples": 10,
+        "silhouette": null,
+        "davies_bouldin": null,
+        "calinski_harabasz": null,
+        "noise_frac": 1.0
+      },
+      {
+        "algo": "dbscan",
+        "eps": 1.2,
+        "min_samples": 10,
+        "silhouette": null,
+        "davies_bouldin": null,
+        "calinski_harabasz": null,
+        "noise_frac": 1.0
+      },
+      {
+        "algo": "dbscan",
+        "eps": 1.3,
+        "min_samples": 10,
+        "silhouette": null,
+        "davies_bouldin": null,
+        "calinski_harabasz": null,
+        "noise_frac": 1.0
+      },
+      {
+        "algo": "dbscan",
+        "eps": 1.4,
+        "min_samples": 10,
+        "silhouette": null,
+        "davies_bouldin": null,
+        "calinski_harabasz": null,
+        "noise_frac": 1.0
+      },
+      {
+        "algo": "dbscan",
+        "eps": 1.5,
+        "min_samples": 10,
+        "silhouette": null,
+        "davies_bouldin": null,
+        "calinski_harabasz": null,
+        "noise_frac": 1.0
+      },
+      {
+        "algo": "dbscan",
+        "eps": 1.5999999999999999,
+        "min_samples": 10,
+        "silhouette": null,
+        "davies_bouldin": null,
+        "calinski_harabasz": null,
+        "noise_frac": 1.0
+      },
+      {
+        "algo": "dbscan",
+        "eps": 1.7,
+        "min_samples": 10,
+        "silhouette": null,
+        "davies_bouldin": null,
+        "calinski_harabasz": null,
+        "noise_frac": 1.0
+      },
+      {
+        "algo": "dbscan",
+        "eps": 1.8,
+        "min_samples": 10,
+        "silhouette": null,
+        "davies_bouldin": null,
+        "calinski_harabasz": null,
+        "noise_frac": 1.0
+      },
+      {
+        "algo": "dbscan",
+        "eps": 1.9,
+        "min_samples": 10,
+        "silhouette": null,
+        "davies_bouldin": null,
+        "calinski_harabasz": null,
+        "noise_frac": 1.0
+      },
+      {
+        "algo": "dbscan",
+        "eps": 2.0,
+        "min_samples": 10,
+        "silhouette": null,
+        "davies_bouldin": null,
+        "calinski_harabasz": null,
+        "noise_frac": 1.0
+      }
+    ],
+    "best": {
+      "algo": "kmeans",
+      "params": {
+        "k": 2
+      },
+      "metrics": {
+        "silhouette": 0.06739651011368043,
+        "davies_bouldin": 3.491415540938381,
+        "calinski_harabasz": 1415.9653261784579,
+        "noise_frac": 0.0
+      },
+      "selection_criterion": "max_silhouette (DBSCAN metrics computed on non-noise points)"
+    }
+  }
+}
